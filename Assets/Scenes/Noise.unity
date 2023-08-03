@@ -421,6 +421,7 @@ GameObject:
   m_Component:
   - component: {fileID: 916308248}
   - component: {fileID: 916308247}
+  - component: {fileID: 916308249}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -473,7 +474,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 916308246}
-  m_LocalRotation: {x: 0.10218287, y: 0.830879, z: -0.16256061, w: 0.5222766}
+  m_LocalRotation: {x: 0.102182865, y: 0.830879, z: -0.1625606, w: 0.5222766}
   m_LocalPosition: {x: -6.1765146, y: 4.0988135, z: -15.628182}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -481,7 +482,32 @@ Transform:
   - {fileID: 1201105722}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 22.14, y: 115.467, z: 0}
+--- !u!114 &916308249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916308246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82e62c82b3be64042ac529dee964cc2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowImage: 1
+  m_Image: {fileID: 2800000, guid: 4c37e4da17ba4474185c096264a4aec8, type: 3}
+  m_Aspect: 0
+  m_Alpha: 0.424
+  m_Center: {x: 0, y: 0}
+  m_Rotation: {x: 0, y: 0, z: 0}
+  m_Scale: {x: 0.75, y: 0.75}
+  m_SyncScale: 1
+  m_MuteCamera: 0
+  m_SplitView: -0.39
+  m_RenderMode: 0
+  m_SortingOrder: 0
+  m_PlaneDistance: 100
 --- !u!1 &1201105721
 GameObject:
   m_ObjectHideFlags: 3
@@ -969,7 +995,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2026991009}
-  m_LocalRotation: {x: 0.10218287, y: 0.830879, z: -0.16256061, w: 0.5222766}
+  m_LocalRotation: {x: 0.102182865, y: 0.830879, z: -0.1625606, w: 0.5222766}
   m_LocalPosition: {x: -6.1765146, y: 4.0988135, z: -15.628182}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
